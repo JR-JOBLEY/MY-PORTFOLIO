@@ -18,6 +18,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-tittle{
     color: #181818;
@@ -39,4 +40,54 @@ nav li {
 nav a {
     text-decoration: none;
     color: black;
+}
+.header{
+    background-color: rgba(0, 255, 255, 0.18);
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .pict{
+    width: 500px;
+}
+.banner-grt{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+.banner-tittle{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.desc{
+    margin-top: 0;
+}
+.banner-content{
+    max-width: 500px;
+}
+/* main section styles */ 
+
+/* about section styles */ 
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0.18);
+    margin: 130px 0;
+
+}
+.section-tittle{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-desc{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    
 }
